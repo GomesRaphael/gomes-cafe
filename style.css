@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     height: 88px;
-    width: 1,440px;
+    width: 1, 440px;
     justify-content: space-between;
     flex-direction: row;
     padding: 24px 80px 24px 80px;
@@ -39,7 +39,7 @@ ul {
     font-size: 24px;
     align-items: center;
     justify-content: center;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 ul li a {
@@ -58,7 +58,7 @@ ul li a {
 .container {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .div-text {
@@ -132,3 +132,35 @@ ul li a {
     border-radius: 0px 80px 0px 80px;
 }
 
+/* .infomacoes{
+    display: flex;
+} */
+
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    height: 280px;
+    /* background-color: aqua; */
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+   
+    
+
+}
+
+.tudo h2{
+   font-size: 64px;
+   
+}
+
+.conteudo{
+    border-right: 1px solid black;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
